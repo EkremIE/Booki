@@ -118,3 +118,46 @@ h1 {
 
 
 /* Header */
+
+/*      Filters     */
+
+#filters {
+    display: flex;
+    align-items: center;
+}
+
+#filters .filter-box {
+    margin: 10px 10px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+#filters .filter-box i {
+    color: #0065FC;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#filters .filter-box:hover {
+    transition: background-color 1s;
+    background-color: #DEEBFF;
+}
+
+#filters .filter-box .text {
+    padding-left: 0px;
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/*filters*/
