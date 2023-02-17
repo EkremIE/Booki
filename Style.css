@@ -1,0 +1,120 @@
+body {
+    font-family: Raleway, serif, sans-serif;
+    
+    font-size: 15px;
+}
+
+main {
+    margin: 0;
+    
+}
+h1 {
+    font-size: 100%;
+}
+
+h2 {
+    font-size: 130%;
+    ;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+header #logo {
+    padding: 35px 0px;
+}
+
+header #logo img {
+    width: 100px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+header nav ul li {
+    padding: 50px 25px;
+    border-top: 4px solid transparent;
+    margin: 0px 20px 0px 20px;
+}
+
+header nav ul li:hover {
+    border-color: #0065FC;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li:hover a {
+    color: #0065FC;
+}
+
+
+h1 {
+    font-size: x-large;
+    margin-bottom: 5px
+}
+
+.subtitle {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.research {
+    display: flex;
+    
+    
+}
+
+
+.research i {
+    padding: 1rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+.research input {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 5em;
+    border: 2px solid #F2F2F2;
+    flex-basis:  250px;
+}
+.research input::placeholder{
+    color: black;
+    font-weight: bold;
+    font-size: 15px
+    
+}
+
+.research .search-text{
+    background-color: #0065FC;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0 1.5rem;
+    border: none;
+    margin-left: 0;
+
+}
+.resaerch .fas.fa-map-marker-alt {
+    margin-top: -50px;
+}
+
+.mobile-search {
+    display: none;
+}
+
+
+/* Header */
