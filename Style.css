@@ -390,3 +390,28 @@ h1 {
 }
 
 /* activities*/
+
+/*      footer       */
+
+footer {
+    background-color: #F2F2F2;
+    margin: 0px -15px;
+    padding: 50px;
+    display: flex;
+}
+
+footer .column {
+    width: 30%;
+}
+
+footer .column ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+footer .column ul li a {
+    color: black;
+    text-decoration: none;
+    line-height: 35px;
+}
+/* footer */
