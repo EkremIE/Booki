@@ -161,3 +161,180 @@ h1 {
 }
 
 /*filters*/
+
+
+/*informations*/
+
+.info {
+    display: flex;
+}
+
+.info .fas.fa-info {
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/*informations*/
+
+
+/*lodging*/
+
+#lodging {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lodging section h2 {
+    margin-top: 0px;
+}
+
+#lodging section .container {
+    background-color: #F2F2F2;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+    height: calc(120% - 120px);
+    box-sizing: content-box;
+}
+
+.lodging-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.lodging-list a {
+
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+
+
+.lodging-list a article {
+    background-color: white;
+    padding: 6px;
+    border-radius: 25px;
+    height: 100%;
+}
+
+
+
+.lodging-list a article {
+    box-shadow: 5px 5px 5px 0px #E2E2E2;
+}
+
+
+
+.lodging-list a article .fa-star.blue {
+    color: #0065FC;
+}
+
+
+
+.lodging-list a article .fa-star.grey {
+    color: #E2E2E2;
+}
+
+
+
+.lodging-list a article img {
+    width: 100%;
+    height: 125px;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+
+
+.lodging-list a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.lodging-list a article .article-content {
+    padding: 10px 10px 0px 10px;
+}
+
+
+
+.lodging-list a article .article-content h3,
+.lodging-list a article .article-content p {
+    margin: 6px;
+}
+
+
+.lodging-list a article .article-content .price.bold {
+    font-weight: bold;
+}
+
+
+
+/*lodging*/
+
+/*    lodging-marseille  */
+
+#lodging .lodging-marseille {
+    width: 65%;
+    margin-right: 40px;
+}
+
+#lodging .lodging-marseille .view-more {
+    font-weight: bold;
+    font-size: 120%;
+}
+/*lodging-marseille*/
+
+
+/*lodging-popular*/
+
+#lodging .popular .chart-icone {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#lodging .popular {
+    width: 40%;
+    position: relative;
+}
+
+#lodging .popular .lodging-list {
+    flex-direction: column;
+}
+
+#lodging .popular .lodging-list a {
+    width: 100%;
+}
+
+#lodging .popular .lodging-list a article {
+    display: flex;
+    flex-direction: row;
+}
+
+#lodging .popular .lodging-list a article img {
+    border-radius: 25px 0px 0px 25px;
+    width: 35%;
+}
+
+#lodging .popular .lodging-list a article .article-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.lodging-list-popular {
+    display:flex;
+    flex-direction: column;
+}
