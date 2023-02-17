@@ -461,7 +461,8 @@ footer .column ul li a {
     
     .lodging-list-popular a article {
         background-color: white;
-        padding: 6px;
+        padding-top: 5px;
+        padding-bottom: 0px;
         border-radius: 25px;
         height: 100%;
     }
@@ -521,3 +522,132 @@ footer .column ul li a {
     }
 }
 /* tablette */
+
+/* mobile */
+
+@media screen and (max-width: 768px) 
+
+{ 
+    body {
+        padding: 10px 10px;
+        
+    }
+    
+    header {
+        flex-direction: column;
+    }
+    
+    header #logo {
+        margin: auto;
+    }
+    
+    header nav ul {
+        margin: 0px -20px;
+        padding: 0;
+    }
+    
+    header nav ul li {
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        margin: 0px;
+        border-top: none;
+        border-bottom: 2px solid #F2F2F2;
+    }
+    
+    .research {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .mobile-search {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background-color: #0065FC;
+        margin-left: -15px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        
+        
+       
+    }
+    
+    .research .mobile-search .fa-search {
+        display: flex;
+        justify-content: center;
+        background-color: #0065FC;
+        color: white;
+        font-size: large;
+        
+    
+    }
+    .research .fas.fa-map-marker-alt {
+        
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    
+
+    .research .search-text {
+        display: none;
+    }
+   
+    
+    #filters {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+   
+    
+    #lodging .lodging-marseille {
+        order: 2;
+    }
+    
+    #lodging .popular {
+        order: 1;
+    }
+    
+    #lodging .lodging-marseille .lodging-list {
+        flex-direction: column;
+    }
+    
+    #lodging .lodging-marseille .lodging-list a {
+        width: 100%;
+    }
+    
+    #activities{
+        width: 100%;
+
+    }
+    
+    .activity-list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 250px;
+        margin-bottom: -20px;
+    }
+
+    .activity-list .column  {
+        height: 250px;
+        margin-bottom: 20px;
+        margin-top: 25px;
+    }
+
+    .lodging-list-popular {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    footer {
+        flex-direction: column;
+    }
+}
+
+/* mobile */
